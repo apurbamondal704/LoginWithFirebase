@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#338C5B"
+    tools:context=".TestActivity">
+
+    <Button
+        android:id="@+id/change_email_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="ChangeEmail"
+        android:text="Change Email"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change_email_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:onClick="UpdateInformation"
+        android:text="Profile"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:onClick="Information"
+        android:text="Information"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/image_upload"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/change_email_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="uploadImage"
+        android:text="Upload Image"
+        android:textSize="18sp" />
+</RelativeLayout>
